@@ -13,10 +13,10 @@ const languages = [
   },
 ];
 
-export function LanguageSwitch() {
+export function LanguageSwitch({ value }) {
   return (
     <div>
-      <select>
+      <select value={value}>
         {languages.map((language) => (
           <option key={language.id} value={language.id}>
             {language.title}

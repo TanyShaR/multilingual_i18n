@@ -1,3 +1,5 @@
+import { Container } from "../Container/Container";
+
 export function Main(props) {
-    return <div {...props}></div>
+  return <Container {...props}>Добро пожаловать ко мне!</Container>;
 }

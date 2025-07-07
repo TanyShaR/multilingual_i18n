@@ -1,6 +1,5 @@
 import { useState } from "react";
 import S from "./App.module.css";
-import { LanguageSwitch } from "./components/LanguageSwitch/LanguageSwitch";
 import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
 import { Footer } from "./components/Footer/Footer";
@@ -10,7 +9,7 @@ function App() {
   return (
     <div className={S.container}>
       <Header language={language} />
-      <Main className={S.main}/>
+      <Main className={S.main} />
       <Footer />
     </div>
   );

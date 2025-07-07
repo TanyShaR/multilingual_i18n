@@ -1,3 +1,3 @@
-export function Main({ className }) {
-    return <div {...props}></div> ;
+export function Main(props) {
+    return <div {...props}></div>
 }

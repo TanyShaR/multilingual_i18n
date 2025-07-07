@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import S from "./App.module.css";
 import { LanguageSwitch } from "./components/LanguageSwitch/LanguageSwitch";
 import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
